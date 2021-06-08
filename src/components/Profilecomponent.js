@@ -16,7 +16,7 @@ function Profilecomponent() {
   }
   const deleteHandler = async (e) => {
     e.preventDefault();
-    axios.post(`https://emp-crudapp.herokuapp.com/Delete`, {userDetails})
+    axios.post(`http://localhost:5000/Delete`, {userDetails})
       .then(res => {
         if(res.data.deleted==="true")
         {

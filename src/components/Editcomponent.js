@@ -25,7 +25,7 @@ function Editcomponent() {
   };
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    axios.post(`https://emp-crudapp.herokuapp.com/Update`, { profileDetails })
+    axios.post(`http://localhost:5000/Update`, { profileDetails })
       .then(res => {
         console.log(res);
         console.log(res.data);

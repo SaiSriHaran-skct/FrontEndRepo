@@ -64,7 +64,7 @@ class Createcomponent extends Component {
     };
     console.log(create);
     axios
-      .post(`https://emp-crudapp.herokuapp.com/Create`, {create})
+      .post(`http://localhost:5000/Create`, {create})
       .then((res) => {
         if (res.data.result === "Account Created") {
           setTimeout(this.props.history.push("/login"), 10000);
