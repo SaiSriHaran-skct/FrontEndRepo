@@ -1,0 +1,33 @@
+
+.cmp{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/YjcJg24M/aa.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+
+.nav_area {
+	float: right;
+	list-style: none;
+	margin-top:70px;
+}
+.nav_area li {
+	display: inline-block;
+}
+.nav_area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav_area li a:hover {
+	background: #fff;
+	color: #333;
+}
